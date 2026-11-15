@@ -1,16 +1,210 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header"></header>
-      <aside class="side"></aside>
-      <main class="main"></main>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="header__search">
+          <button>
+            <img src="img/icons/magnify-custom.png" alt="search" />
+          </button>
+          <input type="text" />
+        </div>
+        <div class="header__top-user">
+          <button class="header__top-notif">
+            <img src="img/icons/bell-ring-custom.png" alt="bell" />
+          </button>
+          <div class="header__top-user-avatar">
+            <img src="img/avatar.jpg" alt="avatar" />
+          </div>
+          <p class="header__top-user-name">Morgan Oakley</p>
+        </div>
+      </div>
+      <div class="header__footer">
+        <div class="header__user">
+          <div class="header__user-avatar"><img src="img/avatar.jpg" alt="avatar" /></div>
+          <div class="header__user-text">
+            <p class="header__user-status">Hi there,</p>
+            <p class="header__user-name">Morgan Oakley(@morgan)</p>
+          </div>
+        </div>
+        <div class="header__btns">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+    </header>
+    <aside class="side">
+      <div class="logo"><img src="img/logo.png" alt="logo" /> <span>Dashboard</span></div>
+      <ul class="list side__nav">
+        <li><a href="#"><img src="img/icons/home-custom.png" alt="Home">Home</a></li>
+        <li><a href="#"><img src="img/icons/card-account-details-outline-custom.png" alt="Profile">Profile</a></li>
+        <li><a href="#"><img src="img/icons/message-reply-custom.png" alt="Messages">Messages</a></li>
+        <li><a href="#"><img src="img/icons/clock-time-nine-custom.png" alt="History">History</a></li>
+        <li><a href="#"><img src="img/icons/text-box-multiple-outline-custom.png" alt="Tasks">Tasks</a></li>
+        <li><a href="#"><img src="img/icons/account-group-custom.png" alt="Communities">Communities</a></li>
+      </ul>
+      <ul class="list side__support">
+        <li><a href="#"><img src="img/icons/cog-custom.png" alt="Settings">Settings</a></li>
+        <li><a href="#"><img src="img/icons/help-box-custom.png" alt="Support">Support</a></li>
+        <li><a href="#"><img src="img/icons/shield-check-custom.png" alt="Privacy">Privacy</a></li>
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="projects">
+        <h2 class="projects-title">Your Projects</h2>
+        <div class="projects__cards">
+          <div class="project__card">
+            <h3 class="project__card-name">Super Cool Project</h3>
+            <p class="project__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore placeat
+              facere alias, expedita a?</p>
+            <div class="project__card-btns">
+              <button class="project__card-btn"><img src="img/icons/star-plus-outline-custom.png"
+                  alt="добавить избранное"></button>
+              <button class="project__card-btn"><img src="img/icons/eye-plus-outline-custom.png"
+                  alt="добавить просмотренное"></button>
+              <button class="project__card-btn"><img src="img/icons/source-branch-custom.png"
+                  alt="добавить в ветку"></button>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-name">Super Cool Project</h3>
+            <p class="project__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore placeat
+              facere alias, expedita a?</p>
+            <div class="project__card-btns">
+              <button class="project__card-btn"><img src="img/icons/star-plus-outline-custom.png"
+                  alt="добавить избранное"></button>
+              <button class="project__card-btn"><img src="img/icons/eye-plus-outline-custom.png"
+                  alt="добавить просмотренное"></button>
+              <button class="project__card-btn"><img src="img/icons/source-branch-custom.png"
+                  alt="добавить в ветку"></button>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-name">Super Cool Project</h3>
+            <p class="project__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore placeat
+              facere alias, expedita a?</p>
+            <div class="project__card-btns">
+              <button class="project__card-btn"><img src="img/icons/star-plus-outline-custom.png"
+                  alt="add favorites"></button>
+              <button class="project__card-btn"><img src="img/icons/eye-plus-outline-custom.png"
+                  alt="add see"></button>
+              <button class="project__card-btn"><img src="img/icons/source-branch-custom.png"
+                  alt="add in branch"></button>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-name">Super Cool Project</h3>
+            <p class="project__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore placeat
+              facere alias, expedita a?</p>
+            <div class="project__card-btns">
+              <button class="project__card-btn"><img src="img/icons/star-plus-outline-custom.png"
+                  alt="добавить избранное"></button>
+              <button class="project__card-btn"><img src="img/icons/eye-plus-outline-custom.png"
+                  alt="добавить просмотренное"></button>
+              <button class="project__card-btn"><img src="img/icons/source-branch-custom.png"
+                  alt="добавить в ветку"></button>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-name">Super Cool Project</h3>
+            <p class="project__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore placeat
+              facere alias, expedita a?</p>
+            <div class="project__card-btns">
+              <button class="project__card-btn"><img src="img/icons/star-plus-outline-custom.png"
+                  alt="добавить избранное"></button>
+              <button class="project__card-btn"><img src="img/icons/eye-plus-outline-custom.png"
+                  alt="добавить просмотренное"></button>
+              <button class="project__card-btn"><img src="img/icons/source-branch-custom.png"
+                  alt="добавить в ветку"></button>
+            </div>
+          </div>
+          <div class="project__card">
+            <h3 class="project__card-name">Super Cool Project</h3>
+            <p class="project__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est labore placeat
+              facere alias, expedita a?</p>
+            <div class="project__card-btns">
+              <button class="project__card-btn"><img src="img/icons/star-plus-outline-custom.png"
+                  alt="добавить избранное"></button>
+              <button class="project__card-btn"><img src="img/icons/eye-plus-outline-custom.png"
+                  alt="добавить просмотренное"></button>
+              <button class="project__card-btn"><img src="img/icons/source-branch-custom.png"
+                  alt="добавить в ветку"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="announcements">
+        <h2 class="announcements-title">Announcements</h2>
+        <div class="announcements__cards">
+          <div class="announcements__card">
+            <h3 class="announcements__card-title">Site Maintenance</h3>
+            <p class="announcements__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          </div>
+          <div class="announcements__card">
+            <h3 class="announcements__card-title">Site Maintenance</h3>
+            <p class="announcements__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid autem
+              accusantium consequatur illo rerum eius!</p>
+          </div>
+          <div class="announcements__card">
+            <h3 class="announcements__card-title">Site Maintenance</h3>
+            <p class="announcements__card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid autem
+              accusantium consequatur illo rerum eius!</p>
+          </div>
+        </div>
+      </div>
+      <div class="trending">
+        <h2 class="trending-title">Trending</h2>
+        <div class="trending__cards">
+          <div class="trending__card">
+            <div class="trending__card-avatar">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+            <div class="trending__card-user">
+              <p class="trending__card-user-mail">@teagan</p>
+              <p class="trending__card-user-status">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending__card">
+            <div class="trending__card-avatar">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+            <div class="trending__card-user">
+              <p class="trending__card-user-mail">@teagan</p>
+              <p class="trending__card-user-status">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending__card">
+            <div class="trending__card-avatar">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+            <div class="trending__card-user">
+              <p class="trending__card-user-mail">@teagan</p>
+              <p class="trending__card-user-status">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trending__card">
+            <div class="trending__card-avatar">
+              <img src="img/avatar.jpg" alt="avatar">
+            </div>
+            <div class="trending__card-user">
+              <p class="trending__card-user-mail">@teagan</p>
+              <p class="trending__card-user-status">World Peace Builder</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
 </html>
